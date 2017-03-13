@@ -16,6 +16,8 @@
 		8E0AB5251E7642BC000A24D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E0AB5231E7642BC000A24D6 /* LaunchScreen.storyboard */; };
 		8E0AB5301E7642BC000A24D6 /* WKScriptMessageHandlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0AB52F1E7642BC000A24D6 /* WKScriptMessageHandlerTests.m */; };
 		8E0AB53B1E7642BC000A24D6 /* WKScriptMessageHandlerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0AB53A1E7642BC000A24D6 /* WKScriptMessageHandlerUITests.m */; };
+		8E0AB54A1E7643D7000A24D6 /* WKWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0AB5491E7643D7000A24D6 /* WKWebViewViewController.m */; };
+		8E0AB54C1E7647F4000A24D6 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 8E0AB54B1E7647F4000A24D6 /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		8E0AB5361E7642BC000A24D6 /* WKScriptMessageHandlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKScriptMessageHandlerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E0AB53A1E7642BC000A24D6 /* WKScriptMessageHandlerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKScriptMessageHandlerUITests.m; sourceTree = "<group>"; };
 		8E0AB53C1E7642BC000A24D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E0AB5481E7643D7000A24D6 /* WKWebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewViewController.h; sourceTree = "<group>"; };
+		8E0AB5491E7643D7000A24D6 /* WKWebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewViewController.m; sourceTree = "<group>"; };
+		8E0AB54B1E7647F4000A24D6 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +108,13 @@
 		8E0AB5111E7642BC000A24D6 /* WKScriptMessageHandler */ = {
 			isa = PBXGroup;
 			children = (
+				8E0AB54B1E7647F4000A24D6 /* index.html */,
 				8E0AB5151E7642BC000A24D6 /* AppDelegate.h */,
 				8E0AB5161E7642BC000A24D6 /* AppDelegate.m */,
 				8E0AB5181E7642BC000A24D6 /* ViewController.h */,
 				8E0AB5191E7642BC000A24D6 /* ViewController.m */,
+				8E0AB5481E7643D7000A24D6 /* WKWebViewViewController.h */,
+				8E0AB5491E7643D7000A24D6 /* WKWebViewViewController.m */,
 				8E0AB51B1E7642BC000A24D6 /* Main.storyboard */,
 				8E0AB5211E7642BC000A24D6 /* Assets.xcassets */,
 				8E0AB5231E7642BC000A24D6 /* LaunchScreen.storyboard */,
@@ -253,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E0AB5251E7642BC000A24D6 /* LaunchScreen.storyboard in Resources */,
+				8E0AB54C1E7647F4000A24D6 /* index.html in Resources */,
 				8E0AB5221E7642BC000A24D6 /* Assets.xcassets in Resources */,
 				8E0AB51D1E7642BC000A24D6 /* Main.storyboard in Resources */,
 			);
@@ -282,6 +291,7 @@
 				8E0AB51A1E7642BC000A24D6 /* ViewController.m in Sources */,
 				8E0AB5201E7642BC000A24D6 /* WKScriptMessageHandler.xcdatamodeld in Sources */,
 				8E0AB5171E7642BC000A24D6 /* AppDelegate.m in Sources */,
+				8E0AB54A1E7643D7000A24D6 /* WKWebViewViewController.m in Sources */,
 				8E0AB5141E7642BC000A24D6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

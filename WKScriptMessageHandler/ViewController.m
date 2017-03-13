@@ -10,6 +10,10 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UIButton *pushWKWebViewVCButton;
+
+- (IBAction)doPushWKWebViewVC:(id)sender;
+
 @end
 
 @implementation ViewController
@@ -17,6 +21,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    [self.pushWKWebViewVCButton setBackgroundColor:[UIColor redColor]];
 }
 
 
@@ -25,5 +31,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+#pragma mark
+#pragma mark - Button functions
+
+- (IBAction)doPushWKWebViewVC:(id)sender {
+    
+    [self performSegueWithIdentifier:@"gotoWKWebViewViewController" sender:self];
+}
 
 @end
